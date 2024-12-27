@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.todofrontend.ToDoApp" spacing="10" alignment="CENTER">
+  <Label text="To-Do List" style="-fx-font-size: 24px;"/>
+  <TableView fx:id="taskTable" prefHeight="200" prefWidth="400">
+    <columns>
+      <TableColumn text="Description" fx:id="descriptionColumn"/>
+      <TableColumn text="Completed" fx:id="completedColumn"/>
+    </columns>
+  </TableView>
+  <HBox spacing="10" alignment="CENTER">
+    <Button text="Add Task" onAction="#onAddTask"/>
+    <Button text="Edit Task" onAction="#onEditTask"/>
+    <Button text="Delete Task" onAction="#onDeleteTask"/>
+  </HBox>
+</VBox>
