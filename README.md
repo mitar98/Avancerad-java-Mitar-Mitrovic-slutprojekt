@@ -26,5 +26,29 @@ To-Do List Application är en enkel applikation för att hantera uppgifter. Appl
 
 ### **1. Starta backend-servern**
 1. Navigera till backend-projektmappen:
- 
+
+    **2. Starta backend-servern**
+      - mvn spring-boot:run
+  
+    **3. Starta frontend-applikationen**
+      - Öppna ToDoApp.java.
+      - Högerklicka på filen och välj Run 'ToDoApp.main()'.
+  
+ ### **Exempel på API-anrop**
+
+ **Hämta alla uppgifter**
+   Metod: GET
+   URL: http://localhost:8080/api/tasks
+   Exempel på svar: [
+    {
+        "id": 1,
+        "description": "Buy groceries",
+        "completed": false
+    },
+    {
+        "id": 2,
+        "description": "Clean the house",
+        "completed": true
+    }
+]
 
