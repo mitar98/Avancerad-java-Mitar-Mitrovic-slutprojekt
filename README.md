@@ -28,11 +28,11 @@ To-Do List Application är en enkel applikation för att hantera uppgifter. Appl
 1. Navigera till backend-projektmappen:
 
     **2. Starta backend-servern**
-      - **mvn spring-boot:run
+      - mvn spring-boot:run
   
     **3. Starta frontend-applikationen**
-      - **Öppna ToDoApp.java.
-      - **Högerklicka på filen och välj Run 'ToDoApp.main()'.
+      - Öppna ToDoApp.java.
+      - Högerklicka på filen och välj Run 'ToDoApp.main()'.
   
  ### **Exempel på API-anrop**
 
@@ -52,9 +52,9 @@ To-Do List Application är en enkel applikation för att hantera uppgifter. Appl
    }
    
 **Skapa en ny uppgift**
-   - **Metod: POST
-   - **URL: http://localhost:8080/api/tasks
-   - **Body
+   - Metod: POST
+   - URL: http://localhost:8080/api/tasks
+   - Body
 {
    "description": "Finish homework",
    "completed": False
@@ -68,9 +68,9 @@ To-Do List Application är en enkel applikation för att hantera uppgifter. Appl
   }
 
 **Uppdatera en uppgift**
-   - **Metod: PUT
-   - **URL: http://localhost:8080/api/tasks/{id}
-   - **Body:
+   - Metod: PUT
+   - URL: http://localhost:8080/api/tasks/{id}
+   - Body:
 {
     "description": "Finish groceries and fruits",
       "completed": true
@@ -84,15 +84,15 @@ To-Do List Application är en enkel applikation för att hantera uppgifter. Appl
 }
 
 **Ta bort en uppgift**
-   - **Metod: DELETE
-   - **URL: http://localhost:8080/api/tasks/{id}
-   - **Exempel på svar: HTTP 204 No Content
+   - Metod: DELETE
+   - URL: http://localhost:8080/api/tasks/{id}
+   - Exempel på svar: HTTP 204 No Content
 
 **Felsökning**
-   - **Om backend-servern inte startar:
+   - Om backend-servern inte startar:
 Kontrollera om port 8080 används av ett annat program.
 Se backend-loggarna för eventuella felmeddelanden.
-   - **Om frontend-applikationen inte visar uppgifter:
+   - Om frontend-applikationen inte visar uppgifter:
 Kontrollera att backend-servern är igång.
 Kontrollera ApiService-klassen för korrekt URL till backend.
 css
