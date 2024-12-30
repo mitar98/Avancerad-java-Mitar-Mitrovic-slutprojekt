@@ -37,9 +37,9 @@ To-Do List Application är en enkel applikation för att hantera uppgifter. Appl
  ### **Exempel på API-anrop**
 
  **Hämta alla uppgifter**
-   - **Metod: GET
-   - **URL: http://localhost:8080/api/tasks.
-   - **Exempel på svar:  
+   - Metod: GET
+   - URL: http://localhost:8080/api/tasks.
+   - Exempel på svar:  
    {
       "id": 1,
       "description": "Buy groceries",
@@ -60,7 +60,7 @@ To-Do List Application är en enkel applikation för att hantera uppgifter. Appl
    "completed": False
 }
 
-- **Exempel på svar:
+- Exempel på svar:
   {
       "id": 3,
       "description": "Finish homework",
@@ -76,7 +76,7 @@ To-Do List Application är en enkel applikation för att hantera uppgifter. Appl
       "completed": true
   }
 
-- **Exempel på svar:
+- Exempel på svar:
 {  
    "id": 1,
    "description": "Finish groceries and fruits",
